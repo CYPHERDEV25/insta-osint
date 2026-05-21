@@ -1,0 +1,12 @@
+# System updates
+sudo apt update && sudo apt upgrade -y
+
+# Python tools
+sudo apt install -y python3-pip git
+
+# Required tools
+sudo apt install -y exiftool sherlock 2>/dev/null
+pip3 install instaloader requests
+
+# Optional but recommended
+sudo apt install -j jq curl wget
